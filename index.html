@@ -17,9 +17,7 @@
   <body>
     <header class="site-header">
       <div class="site-header-container container">
-        <a class="site-header-logo" href="index.html"
-          >Where in the world?</a
-        >
+        <a class="site-header-logo" href="index.html">Where in the world?</a>
         <button class="dark-mode-btn" type="button">
           <span class="dark-mode-btn-icon-wrapper">
             <svg
@@ -42,6 +40,35 @@
         </button>
       </div>
     </header>
+    <main class="main-content">
+      <div class="container">
+        <form
+          class="filters-form"
+          action="https://echo.htmlacademy.ru"
+          method="get"
+        >
+          <input
+            class="search-input"
+            type="search"
+            name="search"
+            placeholder="Search for a country…"
+            aria-label="Search for a country…"
+            required
+          />
+          <select
+            class="region-select"
+            name="region"
+            aria-label="Filter by Region"
+          >
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </form>
+      </div>
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -129,4 +129,45 @@ a {
 
 .main-content {
   flex-grow: 1;
+  padding: 48px 0;
+}
+
+/* FILTERS */
+
+.filters-form {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  width: 480px;
+  height: 56px;
+  background: var(--light-bg);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-color);
+  padding: 18px 32px;
+}
+
+.search-input::placeholder {
+  color: var(--input-placeholder-color);
+}
+
+.region-select {
+  width: 200px;
+  height: 56px;
+  background: var(--light-bg);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 18px;
 }
