@@ -226,3 +226,71 @@ a {
   color: var(--text-color);
   margin-bottom: 8px;
 }
+
+/* BACK-BTN */
+
+.back-btn-wrapper {
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.back-btn {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+
+.back-btn-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* WRAPPER-COUNTRY */
+
+.wrapper-country {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.img-country {
+  width: 560px;
+  height: 400px;
+  margin-right: 40px;
+  border: 1px dashed var(--text-color);
+}
+
+.content-country {
+}
+
+.name-country {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--text-color);
+  margin-bottom: 23px;
+}
+
+.lists-wrapper {
+  max-width: 600px;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.list-country {
+  list-style-type: none;
+}
+
+.item-country {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--text-color);
+}
+
+.info-country {
+}
